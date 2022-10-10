@@ -20,7 +20,7 @@ jobs:
         DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
       run: docker login -u $DOCKER_USER -p $DOCKER_PASSWORD 
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag abdulmeral/readmewebpage
+      run: docker build . --file Dockerfile --tag abdulmeral/readmewebpage:${{github.run_number}}
       
     - name: Docker Push
-      run: docker push abdulmeral/readmewebpage
+      run: docker push abdulmeral/readmewebpage:${{github.run_number}}
