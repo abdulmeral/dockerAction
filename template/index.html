@@ -1,0 +1,173 @@
+<h1 id="assignment-2">Assignment-2</h1>
+<ul>
+<li>All tasks are here. ## Docker Commands</li>
+</ul>
+<h3 id="task-1">Task-1</h3>
+<hr>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>    <span class="ex">1-</span> docker images : show all images</span></code></pre></div>
+<figure>
+<img src="./screenshots/dockerimages.png" alt="Pic1" />
+<figcaption aria-hidden="true">Pic1</figcaption>
+</figure>
+<hr>
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>    <span class="ex">2-</span> docker ps : show running container</span></code></pre></div>
+<figure>
+<img src="./screenshots/dockerps.png" alt="Pic2" />
+<figcaption aria-hidden="true">Pic2</figcaption>
+</figure>
+<hr>
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>    <span class="ex">3-</span> docker ps <span class="at">--help</span> : show parameters for ps command</span></code></pre></div>
+<figure>
+<img src="./screenshots/dockerpshelp.png" alt="Pic3" />
+<figcaption aria-hidden="true">Pic3</figcaption>
+</figure>
+<hr>
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>    <span class="ex">4-</span> docker container pause/unpause CONTAINER ID : pause or unpause container </span></code></pre></div>
+<figure>
+<img src="./screenshots/dockerpause.png" alt="Pic4" />
+<figcaption aria-hidden="true">Pic4</figcaption>
+</figure>
+<hr>
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>    <span class="ex">5-</span> docker container rm CONTAINER ID : remove container </span></code></pre></div>
+<figure>
+<img src="./screenshots/rmcontainer.png" alt="Pic5" />
+<figcaption aria-hidden="true">Pic5</figcaption>
+</figure>
+<hr>
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>    <span class="ex">6-</span> docker exec <span class="at">-it</span> CONTAINER ID bash : access the running container</span></code></pre></div>
+<figure>
+<img src="./screenshots/accesscontainer.png" alt="Pic6" />
+<figcaption aria-hidden="true">Pic6</figcaption>
+</figure>
+<hr>
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>    <span class="ex">7-</span> docker login : login to the docker hub repository</span></code></pre></div>
+<figure>
+<img src="./screenshots/rmcontainer.png" alt="Pic7" />
+<figcaption aria-hidden="true">Pic7</figcaption>
+</figure>
+<hr>
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>    <span class="ex">8-</span> docker restart CONTAINER ID : restart container</span></code></pre></div>
+<figure>
+<img src="./screenshots/restartcont.png" alt="Pic8" />
+<figcaption aria-hidden="true">Pic8</figcaption>
+</figure>
+<hr>
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>    <span class="ex">9-</span> docker rename name1 name2 : rename container from name1 to name2</span></code></pre></div>
+<figure>
+<img src="./screenshots/rename.png" alt="Pic9" />
+<figcaption aria-hidden="true">Pic9</figcaption>
+</figure>
+<hr>
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>    <span class="ex">10-</span> docker build <span class="at">-t</span> <span class="op">&lt;</span>image_name<span class="op">&gt;</span> . : create image, t:tag</span></code></pre></div>
+<figure>
+<img src="./screenshots/build.png" alt="Pic10" />
+<figcaption aria-hidden="true">Pic10</figcaption>
+</figure>
+<hr>
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>    <span class="ex">11-</span> docker run <span class="at">-d</span> <span class="at">-p</span> host_port:container_port <span class="op">&lt;</span>image_name<span class="op">&gt;</span> . : run image</span></code></pre></div>
+<figure>
+<img src="./screenshots/run.png" alt="Pic11" />
+<figcaption aria-hidden="true">Pic11</figcaption>
+</figure>
+<figure>
+<img src="./screenshots/runweb.png" alt="Pic12" />
+<figcaption aria-hidden="true">Pic12</figcaption>
+</figure>
+<hr>
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>    <span class="ex">12-</span> docker stop <span class="op">&lt;</span>image_name<span class="op">&gt;</span> : stop image</span></code></pre></div>
+<figure>
+<img src="./screenshots/stop.png" alt="Pic13" />
+<figcaption aria-hidden="true">Pic13</figcaption>
+</figure>
+<hr>
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>    <span class="ex">13-</span> docker start <span class="op">&lt;</span>image_name<span class="op">&gt;</span> : start image</span></code></pre></div>
+<figure>
+<img src="./screenshots/start.png" alt="Pic14" />
+<figcaption aria-hidden="true">Pic14</figcaption>
+</figure>
+<hr>
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>    <span class="ex">14-</span> docker rmi <span class="at">-f</span> <span class="op">&lt;</span>image_name<span class="op">&gt;</span> : remove image, f:force</span></code></pre></div>
+<figure>
+<img src="./screenshots/rmimage.png" alt="Pic15" />
+<figcaption aria-hidden="true">Pic15</figcaption>
+</figure>
+<hr>
+<div class="sourceCode" id="cb15"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>    <span class="ex">15-</span> docker info : Get detailed information about docker installed on the system including the kernel version, number of containers</span></code></pre></div>
+<figure>
+<img src="./screenshots/info.png" alt="Pic16" />
+<figcaption aria-hidden="true">Pic16</figcaption>
+</figure>
+<h2 id="task-2">Task-2</h2>
+<hr>
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>    <span class="ex">docker</span> pull hello-world</span></code></pre></div>
+<figure>
+<img src="./screenshots/2helloworld.png" alt="Pic17" />
+<figcaption aria-hidden="true">Pic17</figcaption>
+</figure>
+<figure>
+<img src="./screenshots/2hellocorrect.png" alt="Pic18" />
+<figcaption aria-hidden="true">Pic18</figcaption>
+</figure>
+<h2 id="task-3">Task-3</h2>
+<hr>
+<p>Dockerfile</p>
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>  <span class="ex">docker</span> build <span class="at">-t</span> task3 . </span></code></pre></div>
+<figure>
+<img src="./screenshots/3docker.png" alt="Pic19" />
+<figcaption aria-hidden="true">Pic19</figcaption>
+</figure>
+<hr>
+<p>app.py</p>
+<figure>
+<img src="./screenshots/3apppy.png" alt="Pic20" />
+<figcaption aria-hidden="true">Pic20</figcaption>
+</figure>
+<hr>
+<p>Web</p>
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>  <span class="ex">docker</span> run <span class="at">-p</span> 8000:8000 task3</span></code></pre></div>
+<figure>
+<img src="./screenshots/3web.png" alt="Pic21" />
+<figcaption aria-hidden="true">Pic21</figcaption>
+</figure>
+<hr>
+<p>Push</p>
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>  <span class="ex">docker</span> login</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>  <span class="ex">docker</span> commit 1bdb6a3f967d abdulmeral/task3</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>  <span class="ex">docker</span> push abdulmeral/task3</span></code></pre></div>
+<figure>
+<img src="./screenshots/hub.png" alt="Pic22" />
+<figcaption aria-hidden="true">Pic22</figcaption>
+</figure>
+<h2 id="task-4">Task-4</h2>
+<hr>
+<p>Github Actions</p>
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode bash"><code class="sourceCode bash"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>  <span class="ex">//</span> Pull a docker image from hub</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>  <span class="ex">docker</span> pull ubuntu</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>  <span class="ex">docker</span> run <span class="at">-d</span> <span class="at">-t</span> ubuntu</span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>  <span class="ex">docker</span> exec it containerID bash</span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>  <span class="ex">//</span> create a dir for example</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mkdir</span> abdulmeralDir</span></code></pre></div>
+<figure>
+<img src="./screenshots/mkdir.png" alt="Pic22" />
+<figcaption aria-hidden="true">Pic22</figcaption>
+</figure>
